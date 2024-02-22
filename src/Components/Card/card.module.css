@@ -1,0 +1,60 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card{
+    border: 0;
+    border-radius: 20px;
+    background-color: #F7F7F7;
+}
+.card_header{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 10px;
+    padding: 30px;
+}
+.card_header_logo{
+    width: 50px;
+    height: 50px;
+}
+.card_header_content{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.card_body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: start;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 30px;
+}
+.card_footer{
+    background-color: #f0f0f0;
+    padding: 30px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.card_footer_section{
+    width: 100%;
+}
+.card_footer_section_first{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 20px;
+}
+.card_footer_section_price{
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+.card_footer_section_price_number{
+    font-size: 25px;
+    font-weight: bold;
+}
