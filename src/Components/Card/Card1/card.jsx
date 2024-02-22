@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './card.module.css'
-import logo from '../../Images/kids-bird.2de19361.png'
+import logo from '../../../Images/kids-bird.2de19361.png'
 import { Card, CardHeader, CardBody, CardFooter, Flex } from '@chakra-ui/react'
 import { CheckIcon } from '@chakra-ui/icons'
-import Button from '../Button/button'
+import Button from '../../Button/button'
 
 const card = () => {
     return (
